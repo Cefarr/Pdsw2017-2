@@ -10,7 +10,7 @@ package edu.eci.arsw.gof.chainofrep.fileproc;
  * @author hcadavid
  */
 class DataLoadException extends Exception {
-
+    public static String NoHayMasFormato="NO ahi formato compatible";
     public DataLoadException(String message) {
         super(message);
     }
